@@ -420,7 +420,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFFFFF;
+   background-color: #C0C0C0;
    background-image: none;
    border: 0px solid #DEE2E6;
    border-radius: 0px;
@@ -442,8 +442,8 @@ body
    box-sizing: border-box;
    font-size: 0;
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0px;
+   padding-left: 0px;
    position: relative;
 }
 #LayoutGrid2 > .col-1
@@ -536,7 +536,7 @@ body
 }
 #Carousel1 .carousel-item-inner
 {
-   padding: 0;
+   padding: 0 -5px 0 -5px;
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -607,7 +607,7 @@ body
 }
 #Carousel1 .frame
 {
-   width: 1170px;
+   width: 1200px;
    display: inline-block;
    float: left;
    height: 427px;
@@ -654,7 +654,7 @@ body
    background-color: transparent;
    background-image: url('images/2.png');
    background-repeat: repeat;
-   background-position: right center;
+   background-position: center center;
    background-size: cover;
 }
 #wb_Text1 
